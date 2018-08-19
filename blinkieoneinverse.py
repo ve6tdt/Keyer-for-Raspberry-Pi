@@ -5,12 +5,11 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(18,GPIO.OUT)
 GPIO.setup(5,GPIO.OUT)
-while True:
+gate=Vari
+If gate=0 then tone=0
+tone=800hz
+adjusttone=tone+toneinput
+
     GPIO.output(18,True)
     GPIO.output(5,False)
-    time.sleep(.2)
-    GPIO.output(18,False)
-    GPIO.output(5,True)
-    time.sleep(.2)
-
-    
+    time.sleep(.?
