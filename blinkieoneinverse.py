@@ -12,4 +12,7 @@ adjusttone=tone+toneinput
 
     GPIO.output(18,True)
     GPIO.output(5,False)
-    time.sleep(.?
+    time.sleep(.2)
+    GPIO.output(18,False)
+    GPIO.output(5,True)
+    time.sleep(.2)
